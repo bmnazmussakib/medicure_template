@@ -1,0 +1,94 @@
+
+
+
+@keyframes bounceHero {
+	0% {
+		top: 0px;
+	}
+	50% {
+		top: 25px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+section {
+	padding: 80px 0;
+}
+
+.section-subtitle {
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.section-title {
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: $black;
+}
+
+.text {
+	font-size: 16px;
+	// text-align: justify;
+}
+
+.card-title {
+	font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+
+.title-wrapper{
+	margin-bottom: 50px;
+}
+
+.slick-list{
+	padding: 50px 0;
+	.slick-slide{
+		margin: 0 15px;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+.primary-btn{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+	padding: 18px 30px;
+	border: none;
+	border-radius: 100px;
+	outline: 0 none;
+	position: relative;
+	z-index: 1;
+	border: 2px solid;
+	text-transform: capitalize;
+	transition: all 0.5s;
+
+	&:hover {
+		background: transparent !important;
+	}
+}
+
+.paddingX-5{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+.logo-text{
+	span{
+		&:first-child {
+			color: $green-one !important;
+		}
+		&:last-child {
+			color: $green-two !important;
+		}
+	}
+}

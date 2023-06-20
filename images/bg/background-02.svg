@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="887px" viewBox="0 0 1600 887" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Stroke 1</title>
+    <defs>
+        <linearGradient x1="40.5509272%" y1="47.9971257%" x2="64.0694716%" y2="52.9497727%" id="linearGradient-1">
+            <stop stop-color="#F2FAFF" offset="0%"></stop>
+            <stop stop-color="#F8F8F8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design-R3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Module-Library" transform="translate(0.000000, -6497.000000)" stroke="url(#linearGradient-1)" stroke-width="306.4">
+            <path d="M-153,6664.72097 C-148.422215,6664.13519 -143.719774,6663.53218 -138.871396,6662.88053 C-30.8024234,6648.51376 86.1758498,6640.14768 190.788934,6676.10412 C208.714961,6682.25276 226.275131,6689.72295 243.374177,6698.67684 C364.780244,6762.29458 479.969765,6841.79319 585.015596,6930.5558 C678.779623,7009.75037 773.026056,7097.58264 892.131575,7127.17153 C997.845274,7153.43324 1108.92219,7130.01529 1217.77456,7134.02858 C1343.82632,7138.6692 1468.24843,7181.36209 1570.58833,7255.12149 C1595.32682,7272.95427 1619.19981,7293.72609 1640,7316.83494" id="Stroke-1" transform="translate(743.500000, 6983.705772) scale(-1, 1) translate(-743.500000, -6983.705772) "></path>
+        </g>
+    </g>
+</svg>

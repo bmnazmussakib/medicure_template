@@ -1,0 +1,210 @@
+@import 'partials/variables';
+@import 'partials/mixin';
+@import 'partials/classes';
+@import 'partials/colors';
+@import 'partials/common';
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+  .banner-content {
+    .banner-text {
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $green-one;
+        line-height: 1.3;
+        margin-bottom: 50px;
+
+        span {
+          color: $green-one;
+        }
+      }
+
+      .banner-card-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        .banner-card {
+          flex-basis: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .banner-card-img {
+            width: 180px;
+            margin-bottom: 10px;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          h4 {
+            color: $green-two;
+            text-align: center;
+          }
+        }
+      }
+
+      .primary-btn {
+        background: $green-one;
+        color: $white;
+        border-color: $green-one;
+        font-size: 16px !important;
+        font-weight: 600;
+
+        &:hover {
+          color: $green-one;
+        }
+      }
+    }
+
+    .banner-img {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.empowering {
+  background: $gray;
+  .section-subtitle{
+    color: $green-two;
+  }
+
+  .empower-card {
+    text-align: center;
+    padding: 20px;
+    img{
+      margin-bottom: 30px;
+    }
+    h4 {
+      color: $black;
+      text-align: center;
+    }
+  }
+}
+
+.collaboration{
+  .section-subtitle {
+    color: $green-one;
+  }
+  .collaboration-img{
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.medicure-modules{
+  .title-wrapper{
+    .section-subtitle {
+      color: $black;
+    }
+  }
+  .modules-card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 24px;
+    .module-card{
+      background: $green-three;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      color: $black;
+
+    }
+  }
+}
+
+.integrate{
+  background: $green-four;
+  .title-wrapper{
+    .section-subtitle {
+      color: $black;
+      span{
+        color: $green-two;
+      }
+    }
+  }
+  .integrate-card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-template-rows: 300px 300px 300px 300px;
+    grid-gap: 24px;
+    .integrate-card {
+      background: $green-three;
+      // min-height: 300px;
+      border-radius: 10px;
+      padding: 50px 20px;
+      color: $black;
+      h4{
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+.testimonial{
+  background: $green-five;
+  .title-wrapper {
+    .section-subtitle {
+      color: $black;
+    }
+  }
+
+  .testimonial-slider-wrapper{
+    .slick-arrow{
+      display: none !important;
+    }
+    .testimonail-card{
+      border-radius: 30px;
+      // width: 500px;
+      // margin: auto;
+      .card-body{
+        padding: 40px;
+        color: $blue;
+        .card-img{
+          width: 50px;
+          margin-bottom: 50px;
+        }
+      }
+      .card-footer{
+        padding: 40px;
+        border: none;
+        p{
+          color: $blue;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.cutting-edge{
+  background: $green-three;
+  .cutting-edge-content{
+    .cutting-edge-text{
+      h2{
+        font-size: 45px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: $green-one;
+        line-height: 1.3;
+      }
+    }
+  }
+}
