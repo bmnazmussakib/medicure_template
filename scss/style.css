@@ -178,6 +178,12 @@ body {
   display: flex;
   align-items: center;
   color: #3d3d3d;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+.medicure-modules .modules-card-wrapper .module-card:hover {
+  scale: 1.05;
 }
 
 .integrate {
@@ -199,6 +205,12 @@ body {
   border-radius: 10px;
   padding: 50px 20px;
   color: #3d3d3d;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+.integrate .integrate-card-wrapper .integrate-card:hover {
+  scale: 1.03;
 }
 .integrate .integrate-card-wrapper .integrate-card h4 {
   margin-bottom: 50px;
