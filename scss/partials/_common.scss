@@ -13,7 +13,7 @@
 }
 
 .text {
-	font-size: 16px;
+	font-size: 14px;
 	// text-align: justify;
 }
 
@@ -67,10 +67,10 @@ a{
 .logo-text{
 	span{
 		&:first-child {
-			color: $green-one !important;
+			// color: $green-one !important;
 		}
 		&:last-child {
-			color: $green-two !important;
+			// color: $green-two !important;
 		}
 	}
 }

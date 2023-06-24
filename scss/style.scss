@@ -14,12 +14,12 @@
         font-size: 40px;
         font-weight: 700;
         text-transform: uppercase;
-        color: $green-one;
+        color: $blue-four;
         line-height: 1.3;
         margin-bottom: 50px;
 
         span {
-          color: $green-one;
+          color: $blue-four;
         }
       }
 
@@ -44,21 +44,21 @@
           }
 
           h4 {
-            color: $green-two;
+            color: $blue-four;
             text-align: center;
           }
         }
       }
 
       .primary-btn {
-        background: $green-one;
+        background: $blue-four;
         color: $white;
-        border-color: $green-one;
+        border-color: $blue-four;
         font-size: 16px !important;
         font-weight: 600;
 
         &:hover {
-          color: $green-one;
+          color: $blue-four;
         }
       }
     }
@@ -73,21 +73,31 @@
 
 .empowering {
   padding: 80px 0;
-  background: $gray;
+  // background: $blue-four;
   font-family: 'Poppins', sans-serif;
+  background: url('../images/bg/stars.svg') $blue-four ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   .section-subtitle{
-    color: $green-two;
+    color:$white;
   }
 
   .empower-card {
     text-align: center;
     padding: 20px;
-    img{
-      margin-bottom: 30px;
+    color: $white;
+    // img{
+    //   margin-bottom: 30px;
+    // }
+    i{
+      font-size: 6rem;
     }
     h4 {
-      color: $black;
+      color: $white;
       text-align: center;
+      margin-top: 40px;
     }
   }
 }
@@ -95,8 +105,13 @@
 .collaboration{
   padding: 80px 0;
   font-family: 'Poppins', sans-serif;
+  background: url('../images/bg/stars.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   .section-subtitle {
-    color: $green-one;
+    color: $black;
   }
   .collaboration-img{
     img{
@@ -108,9 +123,21 @@
 .medicure-modules{
   padding: 80px 0;
   font-family: 'Poppins', sans-serif;
+  background: $white2;
+  // .title-wrapper{
+  //   .section-subtitle {
+  //     color: $white;
+  //   }
+  //   .section-title {
+  //     color: $white;
+  //   }
+  // }
   .title-wrapper{
     .section-subtitle {
       color: $black;
+      span{
+        color: $blue-four;
+      }
     }
   }
   .modules-card-wrapper{
@@ -119,17 +146,49 @@
     grid-template-rows: 100px 100px 100px;
     grid-gap: 24px;
     .module-card{
-      background: $green-three;
-      padding: 20px;
+      background: $white;
+      padding: 15px;
       border-radius: 10px;
       display: flex;
       align-items: center;
       color: $black;
-      transition: all 0.5s;
+      transition: all 1s;
       cursor: pointer;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+
+
+      a{
+        color: $black;
+        transition: all 1s;
+        h4{
+          font-size: 16px;
+          position: relative;
+          margin: 0;
+          padding-left: 30px;
+          i{
+            font-size: 2rem;
+          }
+          &::before {
+            position: absolute;
+            content: '\27A4';
+            // width: 20px;
+            // height: 3px;
+            // background: $blue-four;
+            left: 0;
+            top: 50%;
+            transform: translate(50%, -50%);
+          }
+        }
+      }
+
       &:hover {
         scale: 1.05;
+        background: $blue-four;
+        color: $white;
+
+        a{
+          color: $white;
+        }
       }
 
     }
@@ -138,13 +197,17 @@
 
 .integrate{
   padding: 80px 0;
-  background: $green-four;
+  background: url('../images/bg/background-02.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
   .title-wrapper{
     .section-subtitle {
       color: $black;
       span{
-        color: $green-two;
+        color: $blue-four;
       }
     }
   }
@@ -154,19 +217,65 @@
     // grid-template-rows: 300px 300px 300px 300px;
     grid-gap: 24px;
     .integrate-card {
-      background: $green-three;
+      // background: $green-three;
       // min-height: 300px;
       border-radius: 10px;
-      padding: 50px 20px;
+      padding: 50px 30px;
       color: $black;
-      transition: all 0.5s;
+      transition: all 1s;
       cursor: pointer;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+      background: $white;
+      
+      .card-img{
+        width: 70px;
+        margin: 0 auto;
+      }
       &:hover {
         scale: 1.03;
+        // background: $blue-one;
+
+        h4 {
+          color: $blue-four;
+        }
+      }
+      i{
+        font-size: 5rem;
+        color: $blue-four;
+        margin-bottom: 30px;
+        transition: all 1s;
       }
       h4{
-        margin-bottom: 50px;
+        margin: 30px 0;
+        color: $black;
+        font-size: 20px;
+        transition: all 1s;
+      }
+      p{
+        color: $gray;
+        transition: all 1s;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.cutting-edge{
+  padding: 80px 0;
+    background: url('../images/bg/background-02.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  .cutting-edge-content{
+    .cutting-edge-text{
+      h2{
+        font-size: 45px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: $blue-four;
+        line-height: 1.3;
       }
     }
   }
@@ -174,11 +283,14 @@
 
 .testimonial{
   padding: 80px 0;
-  background: $green-five;
+  // background: $green-five;
   font-family: 'Poppins', sans-serif;
-  .title-wrapper {
+  .title-wrapper{
     .section-subtitle {
       color: $black;
+      span{
+        color: $blue-four;
+      }
     }
   }
 
@@ -192,37 +304,30 @@
       // margin: auto;
       .card-body{
         padding: 40px;
-        color: $blue;
+        color: $black;
         .card-img{
           width: 50px;
           margin-bottom: 50px;
+        }
+        i{
+          font-size: 5rem;
+          color: $blue-four;
+          opacity: 0.1;
+        }
+        p{
+          margin-top: 30px;
         }
       }
       .card-footer{
         padding: 40px;
         border: none;
+        border-radius: 0 0 30px 30px;
+        background: $blue-four;
         p{
-          color: $blue;
+          color: $white;
           font-size: 18px;
           font-weight: 500;
         }
-      }
-    }
-  }
-}
-
-.cutting-edge{
-  padding: 80px 0;
-  background: $green-three;
-  font-family: 'Poppins', sans-serif;
-  .cutting-edge-content{
-    .cutting-edge-text{
-      h2{
-        font-size: 45px;
-        font-weight: 600;
-        text-transform: capitalize;
-        color: $green-one;
-        line-height: 1.3;
       }
     }
   }
