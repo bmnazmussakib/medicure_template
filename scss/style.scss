@@ -8,6 +8,7 @@
 .banner {
   padding: 80px 0;
   font-family: 'Poppins', sans-serif;
+
   .banner-content {
     .banner-text {
       h1 {
@@ -58,6 +59,7 @@
         font-weight: 600;
 
         &:hover {
+          background: $white !important;
           color: $blue-four;
         }
       }
@@ -71,6 +73,44 @@
   }
 }
 
+.feature {
+  padding: 0;
+  .feature-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .feature-card {
+      min-height: 150px;
+      padding: 40px;
+      text-align: center;
+      color: #fff;
+      .feature-card-img{
+        width: 50px;
+        height: 50px;
+        margin: 20px auto;
+      }
+      .feature-card-text{
+        h4{
+          font-weight: 600;
+          text-transform: uppercase;
+          font-size: 18px;
+        }
+      }
+    }
+    .time{
+      background: #00A4EF !important;
+    }
+    .transparency{
+      background: #009ae0 !important;
+    }
+    .information{
+      background: #0093d6 !important;
+    }
+    .workflow{
+      background: #008ccb !important;
+    }
+  }
+}
+
 .empowering {
   padding: 80px 0;
   // background: $blue-four;
@@ -80,20 +120,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  .section-subtitle{
-    color:$white;
+
+  .section-subtitle {
+    color: $white;
   }
 
   .empower-card {
     text-align: center;
     padding: 20px;
     color: $white;
+
     // img{
     //   margin-bottom: 30px;
     // }
-    i{
+    i {
       font-size: 6rem;
     }
+
     h4 {
       color: $white;
       text-align: center;
@@ -102,7 +145,7 @@
   }
 }
 
-.collaboration{
+.collaboration {
   padding: 80px 0;
   font-family: 'Poppins', sans-serif;
   background: url('../images/bg/stars.svg');
@@ -110,20 +153,29 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  .section-subtitle {
-    color: $black;
+
+  .title-wrapper {
+    .section-subtitle {
+      color: $black;
+
+      span {
+        color: $blue-four;
+      }
+    }
   }
-  .collaboration-img{
-    img{
+
+  .collaboration-img {
+    img {
       width: 100%;
     }
   }
 }
 
-.medicure-modules{
+.medicure-modules {
   padding: 80px 0;
   font-family: 'Poppins', sans-serif;
   background: $white2;
+
   // .title-wrapper{
   //   .section-subtitle {
   //     color: $white;
@@ -132,20 +184,23 @@
   //     color: $white;
   //   }
   // }
-  .title-wrapper{
+  .title-wrapper {
     .section-subtitle {
       color: $black;
-      span{
+
+      span {
         color: $blue-four;
       }
     }
   }
-  .modules-card-wrapper{
+
+  .modules-card-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
+    // grid-template-rows: 100px 100px 100px;
     grid-gap: 24px;
-    .module-card{
+
+    .module-card {
       background: $white;
       padding: 15px;
       border-radius: 10px;
@@ -155,19 +210,22 @@
       transition: all 1s;
       cursor: pointer;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+      height: 100px;
 
-
-      a{
+      a {
         color: $black;
         transition: all 1s;
-        h4{
+
+        h4 {
           font-size: 16px;
           position: relative;
           margin: 0;
           padding-left: 30px;
-          i{
+
+          i {
             font-size: 2rem;
           }
+
           &::before {
             position: absolute;
             content: '\27A4';
@@ -186,7 +244,7 @@
         background: $blue-four;
         color: $white;
 
-        a{
+        a {
           color: $white;
         }
       }
@@ -195,7 +253,7 @@
   }
 }
 
-.integrate{
+.integrate {
   padding: 80px 0;
   background: url('../images/bg/background-02.svg');
   background-position: center;
@@ -203,19 +261,23 @@
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
-  .title-wrapper{
+
+  .title-wrapper {
     .section-subtitle {
       color: $black;
-      span{
+
+      span {
         color: $blue-four;
       }
     }
   }
-  .integrate-card-wrapper{
+
+  .integrate-card-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     // grid-template-rows: 300px 300px 300px 300px;
     grid-gap: 24px;
+
     .integrate-card {
       // background: $green-three;
       // min-height: 300px;
@@ -226,11 +288,12 @@
       cursor: pointer;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
       background: $white;
-      
-      .card-img{
+
+      .card-img {
         width: 70px;
         margin: 0 auto;
       }
+
       &:hover {
         scale: 1.03;
         // background: $blue-one;
@@ -239,19 +302,22 @@
           color: $blue-four;
         }
       }
-      i{
+
+      i {
         font-size: 5rem;
         color: $blue-four;
         margin-bottom: 30px;
         transition: all 1s;
       }
-      h4{
+
+      h4 {
         margin: 30px 0;
         color: $black;
         font-size: 20px;
         transition: all 1s;
       }
-      p{
+
+      p {
         color: $gray;
         transition: all 1s;
         font-size: 14px;
@@ -260,17 +326,18 @@
   }
 }
 
-.cutting-edge{
+.cutting-edge {
   padding: 80px 0;
-    background: url('../images/bg/background-02.svg');
+  background: url('../images/bg/background-02.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
-  .cutting-edge-content{
-    .cutting-edge-text{
-      h2{
+
+  .cutting-edge-content {
+    .cutting-edge-text {
+      h2 {
         font-size: 45px;
         font-weight: 600;
         text-transform: capitalize;
@@ -281,49 +348,58 @@
   }
 }
 
-.testimonial{
+.testimonial {
   padding: 80px 0;
   // background: $green-five;
   font-family: 'Poppins', sans-serif;
-  .title-wrapper{
+
+  .title-wrapper {
     .section-subtitle {
       color: $black;
-      span{
+
+      span {
         color: $blue-four;
       }
     }
   }
 
-  .testimonial-slider-wrapper{
-    .slick-arrow{
+  .testimonial-slider-wrapper {
+    .slick-arrow {
       display: none !important;
     }
-    .testimonail-card{
+
+    .testimonail-card {
       border-radius: 30px;
+
       // width: 500px;
       // margin: auto;
-      .card-body{
+      .card-body {
         padding: 40px;
         color: $black;
-        .card-img{
+
+        .card-img {
           width: 50px;
           margin-bottom: 50px;
         }
-        i{
+
+        i {
           font-size: 5rem;
           color: $blue-four;
           opacity: 0.1;
         }
-        p{
+
+        p {
           margin-top: 30px;
         }
       }
-      .card-footer{
+
+      .card-footer {
         padding: 40px;
         border: none;
         border-radius: 0 0 30px 30px;
         background: $blue-four;
-        p{
+
+        p {
           color: $white;
           font-size: 18px;
           font-weight: 500;

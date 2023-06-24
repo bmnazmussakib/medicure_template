@@ -1,7 +1,257 @@
-@media (max-width: 991px) {
-  .dropdown-menu .dropdown-menu {
-    margin-left: 0.7rem;
-    margin-right: 0.7rem;
-    margin-bottom: 0.5rem;
+@media (max-width: 575px) {
+  .banner {
+    padding: 50px 0;
+  }
+  .banner .banner-content .banner-text h1 {
+    font-size: 25px;
+  }
+  .banner .banner-content .banner-text .banner-card-wrapper .banner-card .banner-card-img {
+    width: 80px !important;
+    margin: 0 auto 10px auto;
+  }
+  .banner .banner-content .banner-text .banner-card-wrapper .banner-card h4 {
+    font-size: 14px;
+  }
+  .feature {
+    padding: 0;
+  }
+  .feature .feature-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .feature .feature-content .feature-card .feature-card-text h4 {
+    font-size: 20px;
+  }
+  .empowering {
+    padding: 50px 0;
+  }
+  .empowering .title-wrapper .section-subtitle {
+    font-size: 25px;
+  }
+  .empowering .empower-card i {
+    font-size: 4rem;
+  }
+  .empowering .empower-card h4 {
+    font-size: 14px;
+  }
+  .collaboration {
+    padding: 50px 0;
+  }
+  .collaboration .title-wrapper .section-subtitle {
+    font-size: 25px;
+  }
+  .medicure-modules {
+    padding: 50px 0;
+  }
+  .medicure-modules .title-wrapper .section-subtitle {
+    font-size: 25px;
+  }
+  .medicure-modules .title-wrapper .section-title {
+    font-size: 14px;
+  }
+  .medicure-modules .modules-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .integrate {
+    padding: 50px 0;
+  }
+  .integrate .title-wrapper .section-subtitle {
+    font-size: 25px;
+  }
+  .integrate .integrate-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .cutting-edge {
+    padding: 50px 0;
+  }
+  .cutting-edge .cutting-edge-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cutting-edge .cutting-edge-text h2 {
+    font-size: 30px !important;
+  }
+  .testimonial {
+    padding: 50px 0;
+  }
+  .testimonial .title-wrapper .section-subtitle {
+    font-size: 25px;
+  }
+  .testimonial .testimonail-card .card-body {
+    padding: 35px !important;
+  }
+  .testimonial .testimonail-card .card-footer {
+    padding: 35px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner {
+    padding: 50px 0;
+  }
+  .banner .banner-content .banner-text h1 {
+    font-size: 30px;
+  }
+  .banner .banner-content .banner-text .banner-card-wrapper .banner-card .banner-card-img {
+    width: 120px !important;
+    margin: 0 auto 10px auto;
+  }
+  .banner .banner-content .banner-text .banner-card-wrapper .banner-card h4 {
+    font-size: 14px;
+  }
+  .feature {
+    padding: 0;
+  }
+  .feature .feature-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .feature .feature-content .feature-card .feature-card-text h4 {
+    font-size: 20px;
+  }
+  .empowering {
+    padding: 50px 0;
+  }
+  .empowering .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .empowering .empower-card i {
+    font-size: 4rem;
+  }
+  .empowering .empower-card h4 {
+    font-size: 14px;
+  }
+  .collaboration {
+    padding: 50px 0;
+  }
+  .collaboration .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .medicure-modules {
+    padding: 50px 0;
+  }
+  .medicure-modules .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .medicure-modules .title-wrapper .section-title {
+    font-size: 14px;
+  }
+  .medicure-modules .modules-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .integrate {
+    padding: 50px 0;
+  }
+  .integrate .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .integrate .integrate-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .cutting-edge {
+    padding: 50px 0;
+  }
+  .cutting-edge .cutting-edge-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cutting-edge .cutting-edge-text h2 {
+    font-size: 30px !important;
+  }
+  .testimonial {
+    padding: 50px 0;
+  }
+  .testimonial .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .testimonial .testimonail-card .card-body {
+    padding: 35px !important;
+  }
+  .testimonial .testimonail-card .card-footer {
+    padding: 35px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner .banner-content .banner-text h1 {
+    font-size: 30px;
+  }
+  .feature {
+    padding: 0;
+  }
+  .feature .feature-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .feature .feature-content .feature-card .feature-card-text h4 {
+    font-size: 20px;
+  }
+  .empowering .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .empowering .empower-card i {
+    font-size: 4rem;
+  }
+  .empowering .empower-card h4 {
+    font-size: 18px;
+  }
+  .collaboration .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .medicure-modules .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .medicure-modules .title-wrapper .section-title {
+    font-size: 14px;
+  }
+  .medicure-modules .modules-card-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .integrate .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .integrate .integrate-card-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cutting-edge .cutting-edge-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cutting-edge .cutting-edge-text h2 {
+    font-size: 30px !important;
+  }
+  .testimonial {
+    padding: 50px 0;
+  }
+  .testimonial .title-wrapper .section-subtitle {
+    font-size: 30px;
+  }
+  .testimonial .testimonail-card .card-body {
+    padding: 35px !important;
+  }
+  .testimonial .testimonail-card .card-footer {
+    padding: 35px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .medicure-modules .modules-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .integrate .integrate-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199.98px) {
+  .medicure-modules .modules-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .integrate .integrate-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .medicure-modules .modules-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .integrate .integrate-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }/*# sourceMappingURL=responsive.css.map */
